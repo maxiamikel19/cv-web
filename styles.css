@@ -1,0 +1,65 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+h1,
+h2,
+h3 {
+  color: #1e40af;
+}
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+ul {
+  padding-left: 20px;
+}
+p {
+  text-align: justify;
+}
+.contact,
+.skills,
+.languages,
+.softskills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.contact div,
+.skills div,
+.languages div,
+.softskills div {
+  flex: 1 1 45%;
+}
+a {
+  color: #1e40af;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.project {
+  margin-bottom: 15px;
+}
+.project a {
+  font-weight: bold;
+}
